@@ -21,7 +21,7 @@ A Desktop Application built with C# and Windows Forms that allows users to custo
 
 | Main Interface | Order Confirmation |
 | :---: | :---: |
-| ![Main UI](./images/main-ui.png) | ![Confirm Order](./images/confirm-order.png) |
+| <img width="1148" height="690" alt="لقطة شاشة 2026-10-04 151406" src="https://github.com/user-attachments/assets/1c98e8a8-21cc-45a6-8135-3306bbdcc487" /> | <img width="1149" height="682" alt="لقطة شاشة 2026-10-04 151439" src="https://github.com/user-attachments/assets/7be5b69a-3a9f-4506-98c0-ac1f7805a7c5" /> |
 
 ---
 
