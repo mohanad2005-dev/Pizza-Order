@@ -12,20 +12,20 @@ A Desktop Application built with C# and Windows Forms that allows users to custo
   * Add Extra Toppings (*Extra Cheese, Onion, Mushrooms, Olives, Tomatoes, Green Peppers*).
   * Choose Dining Location (*Eat In, Take Out*).
 * **Real-Time Order Summary**: Live updates of selected items and instant price calculation.
-* **Order Confirmation**: Confirmation dialogs before placing orders.
-* **Reset Functionality**: Quick reset button to restore default selections and clear the form.
+* **Order Confirmation**: Displays a confirmation dialog before finalizing the order and disables input controls upon placement.
+* **Reset Functionality**: Quick reset button to restore default selections and re-enable form controls.
 
 ---
 
 ## 📸 Screenshots
 
-| Main Interface | Order Confirmed |
+| Main Interface | Order Confirmation |
 | :---: | :---: |
-| ![Main UI](https://via.placeholder.com/400x250?text=Pizza+Order+UI) | ![Order Confirmed](https://via.placeholder.com/400x250?text=Order+Placed) |
+| ![Main UI](./images/main-ui.png) | ![Confirm Order](./images/confirm-order.png) |
 
 ---
 
-## 🛠️ Built With
+## 🛠 Built With
 
 * **Language**: C#
 * **Framework**: .NET Framework / .NET Desktop SDK
@@ -38,38 +38,49 @@ A Desktop Application built with C# and Windows Forms that allows users to custo
 
 ### Prerequisites
 
-* [Visual Studio 2019 / 2022](https://visualstudio.microsoft.com/) with the **.NET desktop development** workload installed.
-* .NET Framework (version 4.7.2 or higher) / .NET 6.0+
+* Visual Studio 2019 / 2022 with the .NET desktop development workload installed.
+* .NET Framework (version 4.7.2 or higher) or .NET 6.0+.
 
 ### Installation & Running
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/PizzaOrdersProject.git](https://github.com/your-username/PizzaOrdersProject.git)
 
-Open the project:
+`git clone https://github.com/your-username/PizzaOrdersProject.git`
 
-Double-click PizzaOrdersProject.sln to open it in Visual Studio.
+2. **Open the project:**
 
-Build and Run:
+Double-click `PizzaOrdersProject.sln` to open it in Visual Studio.
 
-Press F5 or click the green Start button in Visual Studio to compile and run the application.
+3. **Build and Run:**
 
-📁 Project Structure
-Plaintext
+Press `F5` or click the green `Start` button in Visual Studio to compile and run the application.
+
+---
+
+## 📁 Project Structure
+
 PizzaOrdersProject/
+│
+├── images/
+│   ├── main-ui.png
+│   └── confirm-order.png
 ├── Frm1.cs             # Main Form UI Logic & Event Handlers
 ├── Frm1.Designer.cs    # Windows Forms Generated UI Code
 ├── Program.cs          # Application Entry Point
 └── PizzaOrdersProject.csproj
 
-📝 Usage
+---
 
-Select your desired pizza size, crust, and dining preference using the radio buttons.
-Check or uncheck any additional toppings in the CheckBoxes list.
-Observe the Order Summary panel on the right side updating dynamically.
-Click Order Pizza to confirm and complete your order.
-Click Reset Order to clear all selections and start over.
+## 📝 Usage
 
-📄 License
+* Select your desired pizza size, crust type, and dining preference using the radio buttons.
+* Check or uncheck any additional toppings in the CheckBoxes list.
+* Observe the Order Summary panel on the right side updating dynamically with the calculated total price.
+* Click Order Pizza to confirm and complete your order.
+* Click Reset Order to clear all selections and start over.
+
+---
+
+## 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
